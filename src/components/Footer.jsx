@@ -1,1 +1,1 @@
-
+export default function Footer(){return <><section className="boost"><h2>Boost your links today</h2><a className="pill" href="#shorten">Get Started</a></section><footer><div className="container footer-inner"><strong className="logo">Shortly</strong><p>Short links. Bigger possibilities.</p><a href="#top">Back to top ↑</a></div></footer></>}
