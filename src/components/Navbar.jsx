@@ -1,1 +1,1 @@
-
+export default function Navbar(){return <header className="container nav"><a className="logo" href="#top" aria-label="Shortly home">Shortly</a><nav aria-label="Main navigation"><a href="#features">Features</a><a href="#shorten">Shorten Links</a></nav><a className="pill nav-cta" href="#shorten">Get Started</a></header>}
