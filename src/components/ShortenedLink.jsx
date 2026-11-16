@@ -1,1 +1,2 @@
-
+import {useState} from 'react';
+export default function ShortenedLink({item}){const [copied,setCopied]=useState(false);async function copy(){try{await navigator.clipboard.writeText(item.short);setCopied(true);}catch{setCopied(false);alert('Copy failed. Please select the link and copy it manually.');}}return <article className="link-row"><span className="original" title={item.original}>{item.original}</span><div className="link-actions"><a href={item.short} target="_blank" rel="noopener noreferrer">{item.short}</a><button className={copied?'copied':''} onClick={copy} aria-label={'Copy '+item.short}>{copied?'Copied!':'Copy'}</button></div></article>}
