@@ -1,1 +1,1 @@
-
+export default function Hero(){return <section id="top" className="container hero"><div><h1>More than just shorter links</h1><p>Build your brand’s recognition and get detailed insights on how your links are performing.</p><a className="pill" href="#shorten">Get Started</a></div><div className="hero-art" role="img" aria-label="Illustration of connected websites"><span>🔗</span><span>🌐</span><span>📈</span></div></section>}
